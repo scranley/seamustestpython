@@ -26,4 +26,4 @@ bpy.context.view_layer.objects.active = obj
 obj.select_set(True)
 
 # Export to FBX
-bpy.ops.export_scene.fbx(filepath="/path/to/triangle.fbx")
+bpy.ops.export_scene.fbx(filepath="triangle.fbx")
